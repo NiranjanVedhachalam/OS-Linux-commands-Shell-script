@@ -51,16 +51,18 @@ cat < file2
 ![04-cat-op-file2](./img/04-cat-op-file2.png)
 
 # Comparing Files
+
 cmp file1 file2
 ## OUTPUT
- 
+![05-cmp-op](./img/05-cmp-op.png)
+
 comm file1 file2
  ## OUTPUT
-
+![06-comm-op](./img/06-comm-op.png)
  
 diff file1 file2
 ## OUTPUT
-
+![07-diff-op](./img/07-diff-op.png)
 
 #Filters
 
