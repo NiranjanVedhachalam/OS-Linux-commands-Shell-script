@@ -896,24 +896,8 @@ $ ./ forin3.sh
  ![76](./img/76.png)
 
 
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
-
-$ ./forin1.sh
-
-
-## OUTPUT
-
-
 cat forinfile.sh 
+
 ```bash
 #!/bin/bash
 # reading values from a file
