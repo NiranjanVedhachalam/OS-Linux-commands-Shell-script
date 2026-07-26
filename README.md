@@ -544,7 +544,7 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
 
 ![63](./img/63.png)
 
