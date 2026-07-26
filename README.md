@@ -418,8 +418,12 @@ gzip backup.tar
 ls .gz
 ## OUTPUT
  
+![54](./img/54.png)
+
 gunzip backup.tar.gz
 ## OUTPUT
+
+![55](./img/55.png)
 
  
 # Shell Script
