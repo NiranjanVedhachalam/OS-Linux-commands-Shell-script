@@ -793,7 +793,10 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT
+
+![71](./img/71.png)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -808,7 +811,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ ## OUTPUT
+
+ ![72](./img/72.png)
  
 cat untiltest.sh 
 ```bash
@@ -822,7 +827,10 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+$ ./untiltest.sh
+## OUTPUT
+
+![73](./img/73.png)
  
 cat forin1.sh 
 ```bash
@@ -836,7 +844,11 @@ done
  
 $ chmod 755 forin1.sh
  
- 
+$ ./forin1.sh 
+## OUTPUT
+
+![74](./img/74.png)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -846,8 +858,6 @@ do
 echo “word:$test”
 done
  ```
- 
-$ chmod 755 forin2.sh
  
 cat forin2.sh 
 ```bash
@@ -861,7 +871,11 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+
+ ## OUTPUT
+
+ ![75](./img/75.png)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -871,8 +885,13 @@ do
 echo "word:$test"
 done
 ```
-$ ./forin3.sh 
- 
+$ chmod 755 forin3.sh
+
+
+$ ./ forin3.sh
+ ![76](./img/76.png)
+
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -884,7 +903,12 @@ done
 ```
 $ chmod 755 forin1.sh
 
+$ ./forin1.sh
+
+
 ## OUTPUT
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
