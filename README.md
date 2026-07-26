@@ -993,13 +993,17 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
+
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
-cat forbreak.sh 
+
+## OUTPUT
+
+![81](./img/81.png)
+
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -1020,6 +1024,8 @@ $ chmod 755 forcontinue.sh
 $ ./forcontinue.sh 
 ## OUTPUT
  
+![82](./img/82.png)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1032,8 +1038,11 @@ echo "Hello $name, welcome to my program. "
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
+
+
 ## OUTPUT
 
+![83](./img/83.png)
 
  cat exread1.sh
 ```bash
@@ -1044,11 +1053,10 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 
+$ ./ exread1.sh
 ## OUTPUT
 
-
-
-$ ./exread1.sh 
+![84](./img/84.png)
  
 cat funcex.sh
 ```bash
@@ -1065,13 +1073,17 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
+
  ./funcex.sh 
 
  
  ./funcex.sh 1 2
 
- 
+## OUTPUT
+
+![85](./img/85.png)
+
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1082,8 +1094,15 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
+
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+
+![86](./img/86.png)
+
+
+
  
  cat argshift1.sh
 ```bash
@@ -1099,9 +1118,14 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
+
 $ ./argshift.sh 1 2 3
- 
+
+
+## OUTPUT
+
+![87](./img/87.png)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1112,9 +1136,13 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
+
  ./argshift.sh 1 2 3
  
+## OUTPUT
+
+
+ ![88](./img/88.png)
  
 cat > nc.awk
 ```bash
@@ -1146,6 +1174,8 @@ ubcdfghj
 awk -f nc.awk data.dat
 ## OUTPUT 
  
+![89](./img/89.png)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1171,8 +1201,10 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
+
 ## OUTPUT 
 
+![90](./img/90.png)
 
 # RESULT:
 The Commands are executed successfully.
