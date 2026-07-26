@@ -546,13 +546,14 @@ fi
 ```
 ##OUTPUT
 
-
+![63](./img/63.png)
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
 
+![64](./img/64.png)
 
 # check file ownership
 cat < psswdperm.sh 
