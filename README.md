@@ -908,7 +908,9 @@ echo "Visit beautiful $file“
 done
 ```
 $ chmod 777 forinfile.sh
-$ cat cities
+
+cat > cities
+```
 Hyderabad
 Alampur
 Basara
@@ -916,9 +918,12 @@ Warangal
 Adilabad
 Bhadrachalam
 Khammam
+```
 
+$ ./forinlife.sh
 ## OUTPUT
 
+![77](./img/77.png)
 
 cat forctype.sh 
 ```bash
@@ -928,10 +933,14 @@ for (( i=1; i <= 5; i++ ))
 do
 echo "The value of i is $i"
 done
-````
+```
 $ chmod 755 forctype.sh
+
 $ ./forctype.sh 
+
 ## OUTPUT
+
+![78](./img/78.png)
 
 cat forctype1.sh 
 ```bash
@@ -943,8 +952,12 @@ echo "$a - $b"
 done
 ```
 $ chmod 755 forctype.sh
+
 $ ./forctype1.sh 
+
 ## OUTPUT
+
+![79](./img/79.png)
 
 cat fornested1.sh 
 ```bash
@@ -964,7 +977,8 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
- 
+![80](./img/80.png)
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
