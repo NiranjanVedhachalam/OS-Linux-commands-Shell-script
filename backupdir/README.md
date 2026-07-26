@@ -329,7 +329,6 @@ sed -n '2,4{s/^/$/;p}' file23
 ![44](./img/44.png)
 
 sed -n '2,4{s/$/*/;p}' file23
-## OUTPUT
 
 ![45](./img/45.png)
 
@@ -345,7 +344,6 @@ cat > file21
 sort file21
 ## OUTPUT
 
-![46](./img/46.png)
 
 cat > file22
 ```
@@ -359,14 +357,12 @@ cat > file22
 uniq file22
 ## OUTPUT
 
-![47](./img/47.png)
+
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-
-![48](./img/48.png)
 
 cat < urllist.txt
 ```
@@ -384,18 +380,17 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-![49](./img/49.png)
+
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-![50](./img/50.png)
+
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
-![51](./img/51.png)
 
 mkdir backupdir
  
@@ -406,12 +401,9 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
-![52](./img/52.png)
 
 tar -xvf backup.tar
 ## OUTPUT
-
-![53](./img/53.png)
 
 gzip backup.tar
 
