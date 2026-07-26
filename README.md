@@ -770,6 +770,7 @@ echo "I cannot write to the file"
 fi
 ```
 $ chmod 755 ifcompound.sh
+
 $ ./ifcompound.sh 
 ## OUTPUT
 
@@ -889,6 +890,9 @@ $ chmod 755 forin3.sh
 
 
 $ ./ forin3.sh
+
+## OUTPUT
+
  ![76](./img/76.png)
 
 
